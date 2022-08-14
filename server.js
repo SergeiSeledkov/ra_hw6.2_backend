@@ -19,15 +19,15 @@ app.use(koaBody({ json: true }));
 const notes = [
   {
     id: 0,
-    content: "Заметка 1",
+    content: "Note 1",
   },
   {
     id: 1,
-    content: "Заметка 2",
+    content: "Note 2",
   },
   {
     id: 2,
-    content: "Заметка 3",
+    content: "Note 3",
   },
 ];
 let nextId = 3;
